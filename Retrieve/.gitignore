@@ -1,0 +1,25 @@
+# Ignore virtual environment
+venv/
+.mcp_venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore model and vectorizer files
+embedding_model/
+tfidf_vectorizer.pkl
+
+# Ignore Excel and temp Excel files
+*.xlsx
+~$*.xlsx
+
+# Ignore system/IDE files
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore Jupyter notebook checkpoints (if used)
+.ipynb_checkpoints/
