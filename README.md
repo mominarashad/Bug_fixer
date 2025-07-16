@@ -81,6 +81,13 @@ python query_issue.py
 
 ---
 
+### Step 4:Run the FastApi Endpoint
+```bash
+uvicorn api:app --reload
+```
+
+---
+
 ## 💡 Sample Query Output
 
 ```bash
