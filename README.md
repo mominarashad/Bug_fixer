@@ -8,6 +8,7 @@ This project implements a **hybrid retriever system** to identify similar bug re
 
 ```
 ├── Clean_Code.py                 # Preprocessing script to clean descriptions
+|__ api.py                        #fast api end point
 ├── data_ingest.py               # Ingests data, computes embeddings + TF-IDF, and stores in MongoDB
 ├── retriever.py                 # Hybrid retriever using TF-IDF + embeddings
 ├── query_issue.py               # Accepts a new issue and queries MongoDB for similar cases
